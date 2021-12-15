@@ -1,0 +1,45 @@
+.Content {
+  flex: 0.7;
+  padding-left: 8px;
+}
+
+.InputPanel {
+  flex: 0.5 1 50%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 8px;
+}
+
+.InputPanel .Word {
+  flex: 0.1;
+}
+
+.InputPanel .AttemptsLeft {
+  flex: 0.1;
+}
+
+.InputPanel .VirtualKeyboard {
+  flex: 0.8;
+}
+
+.InputPanel .GameWin {
+  flex: 0.8;
+  font-weight: 600;
+  font-size: 1.3em;
+}
+
+.InputPanel .GameOver {
+  flex: 0.8;
+  font-weight: 600;
+  font-size: 1.3em;
+}
+
+.Hangman {
+  flex: 0.5 1 50%;
+  margin-top: -80px;
+}
+
+.SideBySide {
+  display: flex;
+  flex-wrap: wrap;
+}

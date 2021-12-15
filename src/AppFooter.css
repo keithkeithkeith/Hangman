@@ -1,0 +1,17 @@
+.AppFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0.1;
+  font-size: 0.9em;
+  font-style: italic;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  height: 80px;
+  margin-top: 17px;
+}
+
+.AppFooter > h5 {
+  margin-left: 8px;
+}
